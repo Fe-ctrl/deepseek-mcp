@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "deepseek": {
+      "command": "python3",
+      "args": ["/home/claude/deepseek-mcp/server.py"],
+      "env": {
+        "DEEPSEEK_API_KEY": "${DEEPSEEK_API_KEY}",
+        "DEEPSEEK_MODEL": "deepseek-chat"
+      }
+    }
+  }
+}
